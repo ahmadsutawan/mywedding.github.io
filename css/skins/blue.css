@@ -1,0 +1,64 @@
+/*  color style    */
+.home-content .contentBx h2,
+.invite-section .invite-content #nama,
+.invite-section .invite-content h1,
+.form-input input:focus ~ label,
+.preloader .loader i,
+.event-section .event-item-inner span,
+.location-section .location-item i,
+.location-section .location-text h3,
+.location-section .section-title h2,
+.couple-section .social-links a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+.couple-section .section-title h2,
+.footer .footer-content .couple-name h2,
+.footer .footer-content .couple-name h2 span,
+.footer .footer-content p,
+body.dark .navbar .nav ul li a.active,
+.navbar .nav ul li a.active,
+body.dark .navbar .nav ul li a:hover,
+.navbar .nav ul li a:hover,
+.navbar .logo p{
+    color: #12b4ff;
+}
+
+/* border */
+body.dark .location-section i.fa-heart,
+.event-section .event-item-inner:before,
+.couple-section .social-links a i,
+.couple-section .couple .photo{
+    border-color: #12b4ff;
+}
+.couple-section .couple:nth-child(2):before,
+.location-section .location-content::before,
+.preloader .loader:before{
+    border-right: 3px solid #12b4ff;
+}
+
+/* social media icons */
+.bank-section,
+.prokes-section,
+.bank-section .bank-items .item .inner .info,
+.prokes-section .prokes-items .item .inner .info,
+.contentBox .content a, 
+.contentBox .imgBx::before,
+.couple-section .social-links a i:hover,
+.form-input .underline:before,
+.home-content .contentBx a,
+.fa-music,
+.navbar .hamburger-btn span,
+.navbar .hamburger-btn span:before,
+.navbar .hamburger-btn span:after,
+.setting .s-toggle-btn,
+.event-section,
+.couple-section .social-links a:hover i{
+    background-color: #12b4ff;
+}
+
+/* theme */
+.couple-section .couple .bingkai,
+.event-section .event-item-inner img,
+.footer .footer-content .couple-name img{
+    filter: hue-rotate(210deg);
+}

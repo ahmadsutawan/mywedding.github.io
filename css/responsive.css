@@ -1,0 +1,177 @@
+@media(min-width: 768px){
+    .navbar .nav{
+        display: block !important;
+    }
+}
+
+
+@media(max-width: 991px){
+    .prokes-section .prokes-items .item{
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+    .bank-section .bank-items .item{
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+    .invite-section .invite{
+        background-position: center;
+        background: url("../img/bg/bg1-responsive.jpg");
+        background-size: cover;
+    }
+    .couple-section .couple-item,
+    .event-section .event-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home-content{
+        padding: 15px 40px;
+    }
+    .home-section{
+        padding: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+    .home-content .contentBx h2{
+        font-size: 2.5rem;
+        color: #ffffff;
+        line-height: 1em;
+        z-index: 1;
+    }
+    .home-content .contentBx p{
+        width: auto;
+        font-size: 1em;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 767px){
+    .prokes-section .prokes-items .item{
+        flex-basis: calc(80%);
+        max-width: calc(80%);
+    }
+    .bank-section .bank-items .item{
+        flex-basis: calc(60%);
+        max-width: calc(60%);
+    }
+    .invite-section .invite{
+        background: url("../img/bg/bg1-responsive.jpg");
+        background-size: cover;
+    }
+    .footer{
+        background: url("../img/bg/bg2-responsive.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .contentBox{
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+    }
+    .contentBox .imgBx{
+        height: 200px;
+        transform: translateY(-50px);
+    }
+    .contentBox .content{
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        top: 0;
+    }
+
+
+    .navbar .logo{
+        padding: 0 15px;
+    }
+    .navbar .hamburger-btn{
+        display: flex;
+        margin-right: 15px;
+    }
+    .navbar .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        display: none;
+    }
+    .navbar.fixed .nav{
+        border-top: 1px solid #cccccc;
+    }
+    .navbar .nav ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .navbar .nav ul li a{
+        color: #555555;
+        padding: 10px 0;
+    }
+    .home-section .home-content h1{
+        font-size: 60px;
+    }
+    .couple-section .couple{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .couple-section .couple:nth-child(2){
+        margin-top: 50px;
+    }
+
+    .couple-section .couple:nth-child(2):before{
+        content: none;
+    }
+    
+    .couple-section .couple i.fa-heart{
+        display: none;
+    }
+    .location-section .location-img{
+        margin-top: 20px;
+    }
+    .location-section .location-content:before{
+        left: 20px;
+    }
+    .location-section .location-item i{
+        margin-left: 0px;
+        left: 5px;
+    }
+    .event-section .event-item:nth-child(2){
+        transform: translateY(0px);
+    }
+    .event-section .event-item{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .location-section .location-img img{
+        width: 100%;
+    }
+    .event-section .event-item,
+    .location-section .location-text, .location-section .location-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .location-section .location-item:nth-child(odd) .location-text{
+        padding: 0 15px 0 60px;
+        text-align: left;
+    }
+    .location-section .location-item:nth-child(even) .location-img{
+        padding: 0 15px 0 60px;
+    }
+}
+
+@media(max-width: 574px){
+    .home-section .home-content h1{
+        font-size: 40px;
+    }
+    .invite-section .invite-content #nama{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer .footer-content .couple-name{
+        width: 290px;
+        height: 290px;
+    }
+}
